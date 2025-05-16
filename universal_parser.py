@@ -218,671 +218,672 @@ if __name__ == "__main__":
     ## view_count olish
     ## reaction_count olish
     parser_config_list = [
-        {
-            "base_url": "https://general-svr.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://general-svr.com/novosti",
-            "source": "general-svr.com",
-            "type": "global",
-            "logo": "https://general-svr.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "btn btn-default taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://24htoday.net",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://24htoday.net/novosti",
-            "source": "24htoday.net",
-            "type": "global",
-            "logo": "https://24htoday.net/templates/wp/image/logo.png   ",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "btn btn-default taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://mediamonstrosity.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://mediamonstrosity.com/novosti",
-            "source": "mediamonstrosity.com",
-            "type": "global",
-            "logo": "https://mediamonstrosity.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://p-zona.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://p-zona.com/novosti",
-            "source": "p-zona.com",
-            "type": "global",
-            "logo": "https://p-zona.com/templates/wp/img/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://1ubd.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://1ubd.com/novosti",
-            "source": "1ubd.com",
-            "type": "global",
-            "logo": "https://1ubd.com/templates/wp/images/logo.jpg",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://hornbloger.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://hornbloger.com/novosti",
-            "source": "hornbloger.com",
-            "type": "global",
-            "logo": "https://hornbloger.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://insayder2.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://insayder2.com/news",
-            "source": "insayder2.com",
-            "type": "global",
-            "logo": "https://insayder2.com/templates/wp/images/w_logo.png",
-            "post_data": {
-                "title": {"h2": {"class": "title"}},
-                "published_at": {"ul": {"class": "tgbanner__content-meta list-wrap"}},
-                "date_format": "published_at.split(' ')[-1]",
-                "content": {"div": {"class": "blog-details-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://nahalnews.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://nahalnews.com/novosti",
-            "source": "nahalnews.com",
-            "type": "global",
-            "logo": "https://nahalnews.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "btn btn-default taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://kz-expert.info",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://kz-expert.info",
-            "source": "kz-expert.info",
-            "type": "global",
-            "logo": "https://kz-expert.info/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"div": {"class": "blog-post-title"}},
-                "published_at": {"div": {"class": "blog-post-time"}},
-                "date_format": None,
-                "content": {"div": {"class": "blog-content pb-0"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://compro-r.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://compro-r.com",
-            "source": "compro-r.com",
-            "type": "global",
-            "logo": None,
-            "post_data": {
-                "title": {"h1": {"class": "single_post_title_main"}},
-                "published_at": {"span": {"class": "post-date updated"}},
-                "date_format": None,
-                "content": {"div": {"class": "post_content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://falshivok.net",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://falshivok.net/novosti",
-            "source": "falshivok.net",
-            "type": "global",
-            "logo": "https://falshivok.net/templates/wp/img/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://7-club-7.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://7-club-7.com/novosti",
-            "source": "7-club-7.com",
-            "type": "global",
-            "logo": "https://7-club-7.com/templates/wp/img/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://tlvinsider.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://tlvinsider.com/novosti",
-            "source": "tlvinsider.com",
-            "type": "global",
-            "logo": "https://tlvinsider.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle post_title"}},
-                "published_at": {"small": {"class": "pull-left"}},
-                "date_format": "published_at.split(': ')[-1]",
-                "content": {"div": {"class": "itemFullText"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://sitetalkzone.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://sitetalkzone.com/novosti",
-            "source": "sitetalkzone.com",
-            "type": "global",
-            "logo": "https://sitetalkzone.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "http://ru-smi.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "http://ru-smi.com",
-            "source": "ru-smi.com",
-            "type": "global",
-            "logo": "https://ru-smi.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://compromat41.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://compromat41.com/novosti",
-            "source": "compromat41.com",
-            "type": "global",
-            "logo": "https://compromat41.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"span": {"class": "itemDateCreated"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://v-kurse2.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://v-kurse2.com",
-            "source": "v-kurse2.com",
-            "type": "global",
-            "logo": "https://v-kurse2.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "main-title"}},
-                "published_at": {"span": {"class": "text"}},
-                "date_format": None,
-                "content": {"div": {"class": "content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://historyofcoins.org",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://historyofcoins.org",
-            "source": "historyofcoins.org",
-            "type": "global",
-            "logo": None,
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "http://internetproekt.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "http://internetproekt.com",
-            "source": "internetproekt.com",
-            "type": "global",
-            "logo": "http://internetproekt.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"span": {"class": "itemDateCreated"}},
-                "date_format": None,
-                "content": {"div": {"class": "item-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://kontent24.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://kontent24.com",
-            "source": "kontent24.com",
-            "type": "global",
-            "logo": "https://kontent24.com/templates/wp/assets/img/logo-1.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "article-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://futlyar.net",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://futlyar.net",
-            "source": "futlyar.net",
-            "type": "global",
-            "logo": "https://futlyar.net/templates/wp/img/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://blogs-exposed.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://blogs-exposed.com",
-            "source": "blogs-exposed.com",
-            "type": "global",
-            "logo": None,
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://balansst.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://balansst.com",
-            "source": "balansst.com",
-            "type": "global",
-            "logo": "https://balansst.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "btn btn-default taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "http://katarsis7.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "http://katarsis7.com",
-            "source": "katarsis7.com",
-            "type": "global",
-            "logo": "https://katarsis7.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"div": {"class": "blog-post-title"}},
-                "published_at": {"div": {"class": "post-date-author"}},
-                "date_format": None,
-                "content": {"div": {"class": "article-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://tv-lenta.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://tv-lenta.com",
-            "source": "tv-lenta.com",
-            "type": "global",
-            "logo": "https://tv-lenta.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://informanet.org",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://informanet.org",
-            "source": "informanet.org",
-            "type": "global",
-            "logo": "https://informanet.org/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://p-efir.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://p-efir.com",
-            "source": "p-efir.com",
-            "type": "global",
-            "logo": "https://p-efir.com/templates/wp/images/logo-light.png",
-            "post_data": {
-                "title": {"div": {"class": "blog-post-title"}},
-                "published_at": {"div": {"class": "blog-post-time"}},
-                "date_format": None,
-                "content": {"div": {"class": "blog-content pb-0"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://fayrix.org",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://fayrix.org",
-            "source": "fayrix.org",
-            "type": "global",
-            "logo": None,
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "item-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://refinancesandiego.org",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://refinancesandiego.org",
-            "source": "refinancesandiego.org",
-            "type": "global",
-            "logo": "https://refinancesandiego.org/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "http://premiumpixel.net",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "http://premiumpixel.net",
-            "source": "premiumpixel.net",
-            "type": "global",
-            "logo": "https://refinancesandiego.org/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "btn btn-default taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://can-explain.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://can-explain.com",
-            "source": "can-explain.com",
-            "type": "global",
-            "logo": "https://can-explain.com/templates/wp/assets/images/logo.png",
-            "post_data": {
-                "title": {"h3": {"class": "entry-title"}},
-                "published_at": {"div": {"class": "entry-date"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://politica2.info",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://politica2.info",
-            "source": "politica2.info",
-            "type": "global",
-            "logo": "https://politica2.info/templates/wp/images/logo_sticky.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://chatname.net",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://chatname.net",
-            "source": "chatname.net",
-            "type": "global",
-            "logo": "https://chatname.net/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://dvsslco24.org",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://dvsslco24.org",
-            "source": "dvsslco24.org",
-            "type": "global",
-            "logo": "https://dvsslco24.org/templates/wp/image/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": {"a": {"class": "btn btn-default taga"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://persona-l.com",
-            "is_url_required": True,
-            "page_count": 1,
-            "pagination_url": "https://persona-l.com",
-            "source": "persona-l.com",
-            "type": "global",
-            "logo": "https://persona-l.com/templates/wp/images/logo.png",
-            "post_data": {
-                "title": {"h1": {"class": "itemTitle"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
+        # {
+        #     "base_url": "https://general-svr.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://general-svr.com/novosti",
+        #     "source": "general-svr.com",
+        #     "type": "global",
+        #     "logo": "https://general-svr.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "btn btn-default taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://24htoday.net",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://24htoday.net/novosti",
+        #     "source": "24htoday.net",
+        #     "type": "global",
+        #     "logo": "https://24htoday.net/templates/wp/image/logo.png   ",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "btn btn-default taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://mediamonstrosity.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://mediamonstrosity.com/novosti",
+        #     "source": "mediamonstrosity.com",
+        #     "type": "global",
+        #     "logo": "https://mediamonstrosity.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://p-zona.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://p-zona.com/novosti",
+        #     "source": "p-zona.com",
+        #     "type": "global",
+        #     "logo": "https://p-zona.com/templates/wp/img/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://1ubd.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://1ubd.com/novosti",
+        #     "source": "1ubd.com",
+        #     "type": "global",
+        #     "logo": "https://1ubd.com/templates/wp/images/logo.jpg",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://hornbloger.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://hornbloger.com/novosti",
+        #     "source": "hornbloger.com",
+        #     "type": "global",
+        #     "logo": "https://hornbloger.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://insayder2.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://insayder2.com/news",
+        #     "source": "insayder2.com",
+        #     "type": "global",
+        #     "logo": "https://insayder2.com/templates/wp/images/w_logo.png",
+        #     "post_data": {
+        #         "title": {"h2": {"class": "title"}},
+        #         "published_at": {"ul": {"class": "tgbanner__content-meta list-wrap"}},
+        #         "date_format": "published_at.split(' ')[-1]",
+        #         "content": {"div": {"class": "blog-details-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://nahalnews.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://nahalnews.com/novosti",
+        #     "source": "nahalnews.com",
+        #     "type": "global",
+        #     "logo": "https://nahalnews.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "btn btn-default taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://kz-expert.info",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://kz-expert.info",
+        #     "source": "kz-expert.info",
+        #     "type": "global",
+        #     "logo": "https://kz-expert.info/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"div": {"class": "blog-post-title"}},
+        #         "published_at": {"div": {"class": "blog-post-time"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "blog-content pb-0"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://compro-r.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://compro-r.com",
+        #     "source": "compro-r.com",
+        #     "type": "global",
+        #     "logo": None,
+        #     "post_data": {
+        #         "title": {"h1": {"class": "single_post_title_main"}},
+        #         "published_at": {"span": {"class": "post-date updated"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "post_content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://falshivok.net",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://falshivok.net/novosti",
+        #     "source": "falshivok.net",
+        #     "type": "global",
+        #     "logo": "https://falshivok.net/templates/wp/img/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://7-club-7.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://7-club-7.com/novosti",
+        #     "source": "7-club-7.com",
+        #     "type": "global",
+        #     "logo": "https://7-club-7.com/templates/wp/img/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://tlvinsider.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://tlvinsider.com/novosti",
+        #     "source": "tlvinsider.com",
+        #     "type": "global",
+        #     "logo": "https://tlvinsider.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle post_title"}},
+        #         "published_at": {"small": {"class": "pull-left"}},
+        #         "date_format": "published_at.split(': ')[-1]",
+        #         "content": {"div": {"class": "itemFullText"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://sitetalkzone.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://sitetalkzone.com/novosti",
+        #     "source": "sitetalkzone.com",
+        #     "type": "global",
+        #     "logo": "https://sitetalkzone.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "http://ru-smi.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "http://ru-smi.com",
+        #     "source": "ru-smi.com",
+        #     "type": "global",
+        #     "logo": "https://ru-smi.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://compromat41.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://compromat41.com/novosti",
+        #     "source": "compromat41.com",
+        #     "type": "global",
+        #     "logo": "https://compromat41.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"span": {"class": "itemDateCreated"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://v-kurse2.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://v-kurse2.com",
+        #     "source": "v-kurse2.com",
+        #     "type": "global",
+        #     "logo": "https://v-kurse2.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "main-title"}},
+        #         "published_at": {"span": {"class": "text"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://historyofcoins.org",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://historyofcoins.org",
+        #     "source": "historyofcoins.org",
+        #     "type": "global",
+        #     "logo": None,
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "http://internetproekt.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "http://internetproekt.com",
+        #     "source": "internetproekt.com",
+        #     "type": "global",
+        #     "logo": "http://internetproekt.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"span": {"class": "itemDateCreated"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "item-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://kontent24.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://kontent24.com",
+        #     "source": "kontent24.com",
+        #     "type": "global",
+        #     "logo": "https://kontent24.com/templates/wp/assets/img/logo-1.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "article-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://futlyar.net",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://futlyar.net",
+        #     "source": "futlyar.net",
+        #     "type": "global",
+        #     "logo": "https://futlyar.net/templates/wp/img/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://blogs-exposed.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://blogs-exposed.com",
+        #     "source": "blogs-exposed.com",
+        #     "type": "global",
+        #     "logo": None,
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://balansst.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://balansst.com",
+        #     "source": "balansst.com",
+        #     "type": "global",
+        #     "logo": "https://balansst.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "btn btn-default taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "http://katarsis7.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "http://katarsis7.com",
+        #     "source": "katarsis7.com",
+        #     "type": "global",
+        #     "logo": "https://katarsis7.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"div": {"class": "blog-post-title"}},
+        #         "published_at": {"div": {"class": "post-date-author"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "article-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://tv-lenta.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://tv-lenta.com",
+        #     "source": "tv-lenta.com",
+        #     "type": "global",
+        #     "logo": "https://tv-lenta.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://informanet.org",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://informanet.org",
+        #     "source": "informanet.org",
+        #     "type": "global",
+        #     "logo": "https://informanet.org/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://p-efir.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://p-efir.com",
+        #     "source": "p-efir.com",
+        #     "type": "global",
+        #     "logo": "https://p-efir.com/templates/wp/images/logo-light.png",
+        #     "post_data": {
+        #         "title": {"div": {"class": "blog-post-title"}},
+        #         "published_at": {"div": {"class": "blog-post-time"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "blog-content pb-0"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://fayrix.org",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://fayrix.org",
+        #     "source": "fayrix.org",
+        #     "type": "global",
+        #     "logo": None,
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "item-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://refinancesandiego.org",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://refinancesandiego.org",
+        #     "source": "refinancesandiego.org",
+        #     "type": "global",
+        #     "logo": "https://refinancesandiego.org/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "http://premiumpixel.net",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "http://premiumpixel.net",
+        #     "source": "premiumpixel.net",
+        #     "type": "global",
+        #     "logo": "https://refinancesandiego.org/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "btn btn-default taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://can-explain.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://can-explain.com",
+        #     "source": "can-explain.com",
+        #     "type": "global",
+        #     "logo": "https://can-explain.com/templates/wp/assets/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h3": {"class": "entry-title"}},
+        #         "published_at": {"div": {"class": "entry-date"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://politica2.info",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://politica2.info",
+        #     "source": "politica2.info",
+        #     "type": "global",
+        #     "logo": "https://politica2.info/templates/wp/images/logo_sticky.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://chatname.net",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://chatname.net",
+        #     "source": "chatname.net",
+        #     "type": "global",
+        #     "logo": "https://chatname.net/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://dvsslco24.org",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://dvsslco24.org",
+        #     "source": "dvsslco24.org",
+        #     "type": "global",
+        #     "logo": "https://dvsslco24.org/templates/wp/image/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": {"a": {"class": "btn btn-default taga"}},
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+        # {
+        #     "base_url": "https://persona-l.com",
+        #     "is_url_required": True,
+        #     "page_count": 1,
+        #     "pagination_url": "https://persona-l.com",
+        #     "source": "persona-l.com",
+        #     "type": "global",
+        #     "logo": "https://persona-l.com/templates/wp/images/logo.png",
+        #     "post_data": {
+        #         "title": {"h1": {"class": "itemTitle"}},
+        #         "published_at": None,
+        #         "date_format": None,
+        #         "content": {"div": {"class": "entry-content"}},
+        #         "category": None,
+        #         "view_count": None,
+        #         "reaction_count": None,
+        #         "image_url": None
+        #     }
+        # },
+
     ]
 
     for parser_config in parser_config_list:
