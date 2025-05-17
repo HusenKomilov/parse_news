@@ -1,0 +1,482 @@
+[
+    {
+        "base_url": "https://timesofindia.indiatimes.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://timesofindia.indiatimes.com",
+        "source": "timesofindia.indiatimes.com",
+        "type": "global",
+        "logo": null,
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "HNMDR"
+                }
+            },
+            "published_at": null,
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "fewcent-121230839 js_tbl_article"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://wan-ifra.org",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://wan-ifra.org/news/page/{}",
+        "source": "wan-ifra.org",
+        "type": "global",
+        "logo": "https://wan-ifra.org/wp-content/themes/wan-ifra/images/logo.png",
+        "post_data": {
+            "title": "main",
+            "published_at": null,
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "text"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://kizzyklicks.blogspot.com",
+        "is_url_required": true,
+        "page_count": 1,
+        "pagination_url": "https://kizzyklicks.blogspot.com",
+        "source": "kizzyklicks.blogspot.com",
+        "type": "global",
+        "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0bPZVoqWT43xFqG67jd5lWpGE2kBQ8-s_wyRuPkstHX0jCiUpU-7fJqGRKTPEPVUpLoxTNc5vBUJMhCOSk27rvWSgRK96XheGCYRjvGNJ3ITWyAz8bN98lXdLS-sbWXlT9Wtq8soJ1ztg/s1600/KIZZYKLICKS+NEW.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "post-title"
+                }
+            },
+            "published_at": {
+                "span": {
+                    "class": "post-date published"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "post-body post-content"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://reporter.am",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://reporter.am",
+        "source": "reporter.am",
+        "type": "global",
+        "logo": "https://reporter.am/wp-content/uploads/2022/07/am-reporter-2.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "page-title"
+                }
+            },
+            "published_at": {
+                "span": {
+                    "itemprop": "datePublished dateModified"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "entry"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://internewscast.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://internewscast.com",
+        "source": "internewscast.com",
+        "type": "global",
+        "logo": "https://internewscast.com/wp-content/uploads/2025/04/INTERNEWSCAST-icon-1.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "entry-title"
+                }
+            },
+            "published_at": {
+                "time": {
+                    "class": "entry-date published"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "entry-content"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://www.npr.org",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://www.npr.org/sections/news/",
+        "source": "npr.org",
+        "type": "global",
+        "logo": "https://static-assets.npr.org/chrome_svg/npr-logo-2025.svg",
+        "post_data": {
+            "title": {
+                "div": {
+                    "class": "storytitle"
+                }
+            },
+            "published_at": {
+                "span": {
+                    "class": "date"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "storytext storylocation linkLocation"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://www.watchdoguganda.com",
+        "is_url_required": false,
+        "page_count": 3,
+        "pagination_url": "https://www.watchdoguganda.com/category/news/page/{}",
+        "source": "watchdoguganda.com",
+        "type": "global",
+        "logo": "https://www.watchdoguganda.com/wp-content/uploads/2019/01/logo-1-1-1.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "jeg_post_title"
+                }
+            },
+            "published_at": {
+                "div": {
+                    "class": "jeg_meta_date"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "content-inner"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://africalaunchpad.com",
+        "is_url_required": false,
+        "page_count": 3,
+        "pagination_url": "https://africalaunchpad.com/news/page/{}",
+        "source": "africalaunchpad.com",
+        "type": "global",
+        "logo": "https://africalaunchpad.com/wp-content/uploads/2022/12/africa-launch-pad-logo249x85.webp",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "entry-title"
+                }
+            },
+            "published_at": {
+                "p": {
+                    "class": "post-modified-info"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "entry-content"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://worldcelebritynews.com",
+        "is_url_required": false,
+        "page_count": 3,
+        "pagination_url": "https://worldcelebritynews.com/category-list?page={}",
+        "source": "worldcelebritynews.com",
+        "type": "global",
+        "logo": "https://worldcelebritynews.com/storage/img-9672-removebg-preview-2.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "post-title"
+                }
+            },
+            "published_at": {
+                "span": {
+                    "class": "post-on has-dot"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "ck-content"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://www.latimes.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://www.latimes.com",
+        "source": "latimes.com",
+        "type": "global",
+        "logo": null,
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "headline"
+                }
+            },
+            "published_at": {
+                "span": {
+                    "class": "published-date-day"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "ct-rich-text-children font-cmsFontBrandText font-normal text-lg leading-7.75 [&_>p]:text-cms-story-body-color-text clearfix mb-10 md:max-w-170 md:mx-auto"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://quintdaily.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://quintdaily.com",
+        "source": "quintdaily.com",
+        "type": "global",
+        "logo": "https://quintdaily.com/wp-content/uploads/2021/06/Quintdaily-Logo-1.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "entry-title"
+                }
+            },
+            "published_at": {
+                "span": {
+                    "class": "td-post-date"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "td-post-content"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://www.theunionjournal.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://www.theunionjournal.com",
+        "source": "theunionjournal.com",
+        "type": "global",
+        "logo": "https://cdn.shortpixel.ai/spai/q_lossy+w_150+to_auto+ret_img/www.theunionjournal.com/wp-content/uploads/2020/11/test-logo-4-150x150-1.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "entry-title"
+                }
+            },
+            "published_at": {
+                "time": {
+                    "class": "entry-date updated td-module-date"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "markdown prose w-full break-words dark:prose-invert dark"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://www.dainikviral.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://www.dainikviral.com",
+        "source": "dainikviral.com",
+        "type": "global",
+        "logo": "https://www.dainikviral.com/wp-content/uploads/2023/08/cropped-cropped-cropped-cropped-cropped-Dainik-Viral-Picture-1.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "entry-title"
+                }
+            },
+            "published_at": {
+                "time": {
+                    "class": "entry-date published"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "entry-content"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://bbcbreakingnews.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://bbcbreakingnews.com",
+        "source": "bbcbreakingnews.com",
+        "type": "global",
+        "logo": null,
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "title"
+                }
+            },
+            "published_at": null,
+            "date_format": null,
+            "content": {
+                "article": {
+                    "class": "small single"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://www.worldpresslive.com",
+        "is_url_required": false,
+        "page_count": 1,
+        "pagination_url": "https://www.worldpresslive.com",
+        "source": "worldpresslive.com",
+        "type": "global",
+        "logo": "https://www.worldpresslive.com/wp-content/uploads/2022/06/WORD-PRESS-LIVE-01.png",
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "post-title single-post-title entry-title"
+                }
+            },
+            "published_at": {
+                "time": {
+                    "class": "entry-date published"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "div": {
+                    "class": "inner-post-entry entry-content"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    },
+    {
+        "base_url": "https://www.akinblog.com",
+        "is_url_required": false,
+        "page_count": 3,
+        "pagination_url": "https://www.akinblog.com/page/{}",
+        "source": "akinblog.com",
+        "type": "global",
+        "logo": null,
+        "post_data": {
+            "title": {
+                "h1": {
+                    "class": "title single"
+                }
+            },
+            "published_at": {
+                "span": {
+                    "class": "mg-blog-date"
+                }
+            },
+            "date_format": null,
+            "content": {
+                "article": {
+                    "class": "page-content-single small single"
+                }
+            },
+            "category": null,
+            "view_count": null,
+            "reaction_count": null,
+            "image_url": null
+        }
+    }
+]

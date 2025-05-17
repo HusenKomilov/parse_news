@@ -323,7 +323,7 @@
         }
     },
     {
-        "base_url": "https://www.norma.uz/oz",
+        "base_url": "https://www.norma.uz",
         "is_url_required": true,
         "page_count": 3,
         "pagination_url": "https://www.norma.uz/oz/?page={}&limit=28",
