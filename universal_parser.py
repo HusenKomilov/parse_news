@@ -220,189 +220,18 @@ if __name__ == "__main__":
     ## reaction_count olish
     parser_config_list = [
         {
-            "base_url": "https://timesofindia.indiatimes.com",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://timesofindia.indiatimes.com",
-            "source": "timesofindia.indiatimes.com",
-            "type": "global",
-            "logo": None,
-            "post_data": {
-                "title": {"h1": {"class": "HNMDR"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "fewcent-121230839 js_tbl_article"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://wan-ifra.org",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://wan-ifra.org/news/page/{}",
-            "source": "wan-ifra.org",
-            "type": "global",
-            "logo": "https://wan-ifra.org/wp-content/themes/wan-ifra/images/logo.png",
-            "post_data": {
-                "title": "main",
-                "published_at": None,
-                "date_format": None,
-                "content": {"div": {"class": "text"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://kizzyklicks.blogspot.com",
+            "base_url": "https://www.bbc.com",
             "is_url_required": True,
             "page_count": 1,
-            "pagination_url": "https://kizzyklicks.blogspot.com",
-            "source": "kizzyklicks.blogspot.com",
-            "type": "global",
-            "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0bPZVoqWT43xFqG67jd5lWpGE2kBQ8-s_wyRuPkstHX0jCiUpU-7fJqGRKTPEPVUpLoxTNc5vBUJMhCOSk27rvWSgRK96XheGCYRjvGNJ3ITWyAz8bN98lXdLS-sbWXlT9Wtq8soJ1ztg/s1600/KIZZYKLICKS+NEW.png",
-            "post_data": {
-                "title": {"h1": {"class": "post-title"}},
-                "published_at": {"span": {"class": "post-date published"}},
-                "date_format": None,
-                "content": {"div": {"class": "post-body post-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://reporter.am",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://reporter.am",
-            "source": "reporter.am",
-            "type": "global",
-            "logo": "https://reporter.am/wp-content/uploads/2022/07/am-reporter-2.png",
-            "post_data": {
-                "title": {"h1": {"class": "page-title"}},
-                "published_at": {"span": {"itemprop": "datePublished dateModified"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://internewscast.com",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://internewscast.com",
-            "source": "internewscast.com",
-            "type": "global",
-            "logo": "https://internewscast.com/wp-content/uploads/2025/04/INTERNEWSCAST-icon-1.png",
-            "post_data": {
-                "title": {"h1": {"class": "entry-title"}},
-                "published_at": {"time": {"class": "entry-date published"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://www.npr.org",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://www.npr.org/sections/news/",
-            "source": "npr.org",
-            "type": "global",
-            "logo": "https://static-assets.npr.org/chrome_svg/npr-logo-2025.svg",
-            "post_data": {
-                "title": {"div": {"class": "storytitle"}},
-                "published_at": {"span": {"class": "date"}},
-                "date_format": None,
-                "content": {"div": {"class": "storytext storylocation linkLocation"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://www.watchdoguganda.com",
-            "is_url_required": False,
-            "page_count": 3,
-            "pagination_url": "https://www.watchdoguganda.com/category/news/page/{}",
-            "source": "watchdoguganda.com",
-            "type": "global",
-            "logo": "https://www.watchdoguganda.com/wp-content/uploads/2019/01/logo-1-1-1.png",
-            "post_data": {
-                "title": {"h1": {"class": "jeg_post_title"}},
-                "published_at": {"div": {"class": "jeg_meta_date"}},
-                "date_format": None,
-                "content": {"div": {"class": "content-inner"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://africalaunchpad.com",
-            "is_url_required": False,
-            "page_count": 3,
-            "pagination_url": "https://africalaunchpad.com/news/page/{}",
-            "source": "africalaunchpad.com",
-            "type": "global",
-            "logo": "https://africalaunchpad.com/wp-content/uploads/2022/12/africa-launch-pad-logo249x85.webp",
-            "post_data": {
-                "title": {"h1": {"class": "entry-title"}},
-                "published_at": {"p": {"class": "post-modified-info"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://worldcelebritynews.com",
-            "is_url_required": False,
-            "page_count": 3,
-            "pagination_url": "https://worldcelebritynews.com/category-list?page={}",
-            "source": "worldcelebritynews.com",
-            "type": "global",
-            "logo": "https://worldcelebritynews.com/storage/img-9672-removebg-preview-2.png",
-            "post_data": {
-                "title": {"h1": {"class": "post-title"}},
-                "published_at": {"span": {"class": "post-on has-dot"}},
-                "date_format": None,
-                "content": {"div": {"class": "ck-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://www.latimes.com",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://www.latimes.com",
-            "source": "latimes.com",
+            "pagination_url": "https://www.bbc.com",
+            "source": "bbc.com",
             "type": "global",
             "logo": None,
             "post_data": {
-                "title": {"h1": {"class": "headline"}},
-                "published_at": {"span": {"class": "published-date-day"}},
+                "title": {"h1": {"class": "sc-f98b1ad2-0 dfvxux"}},
+                "published_at": {"time": {"class": "sc-801dd632-2 IvNnh"}},
                 "date_format": None,
-                "content": {"div": {"class": "ct-rich-text-children font-cmsFontBrandText font-normal text-lg leading-7.75 [&_>p]:text-cms-story-body-color-text clearfix mb-10 md:max-w-170 md:mx-auto"}},
+                "content": {"div": {"data-component": "text-block"}},
                 "category": None,
                 "view_count": None,
                 "reaction_count": None,
@@ -410,16 +239,320 @@ if __name__ == "__main__":
             }
         },
         {
-            "base_url": "https://quintdaily.com",
+            "base_url": "https://syrianwar1.blogspot.com",
             "is_url_required": False,
             "page_count": 1,
-            "pagination_url": "https://quintdaily.com",
-            "source": "quintdaily.com",
+            "pagination_url": "https://syrianwar1.blogspot.com",
+            "source": "syrianwar1.blogspot.com",
             "type": "global",
-            "logo": "https://quintdaily.com/wp-content/uploads/2021/06/Quintdaily-Logo-1.png",
+            "logo": None,
+            "post_data": {
+                "title": {"h3": {"class": "post-title entry-title"}},
+                "published_at": {"h2": {"class": "date-header"}},
+                "date_format": None,
+                "content": {"div": {"class": "post-body entry-content"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://edition.cnn.com",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://edition.cnn.com",
+            "source": "edition.cnn.com",
+            "type": "global",
+            "logo": None,
+            "post_data": {
+                "title": {"h1": {"class": "headline__text inline-placeholder vossi-headline-text"}},
+                "published_at": {"div": {"class": "timestamp vossi-timestamp"}},
+                "date_format": None,
+                "content": {"div": {"class": "article__content"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://rhymes-punches.com",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://rhymes-punches.com",
+            "source": "rhymes-punches.com",
+            "type": "global",
+            "logo": "https://rhymes-punches.com/templates/wp/img/logo.png",
+            "post_data": {
+                "title": {"div": {"class": "blog-post-title"}},
+                "published_at": {"div": {"class": "post-date-author"}},
+                "date_format": None,
+                "content": {"div": {"class": "article-content"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://asiaplustj.info",
+            "is_url_required": True,
+            "page_count": 3,
+            "pagination_url": "https://asiaplustj.info/ru/news/all?page={}",
+            "source": "asiaplustj.info",
+            "type": "global",
+            "logo": "https://asiaplustj.info/sites/all/themes/asiaplus/images/logo-front.png?v4",
+            "post_data": {
+                "title": {"h1": {"class": "atitle"}},
+                "published_at": {"div": {"class": "article-info"}},
+                "date_format": None,
+                "content": {"div": {"class": "article-body js-mediator-article"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://astanatv.kz",
+            "is_url_required": True,
+            "page_count": 3,
+            "pagination_url": "https://astanatv.kz/kz/news/?page={}",
+            "source": "astanatv.kz",
+            "type": "global",
+            "logo": "https://astanatv.kz/assets/astanatv-logo.png",
+            "post_data": {
+                "title": {"h1": {"class": "news__title xl-mb-20 xs-mb-20"}},
+                "published_at": {"div": {"class": "news__date xl-mr-20"}},
+                "date_format": None,
+                "content": {"div": {"class": "news-full-text"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://kazpravda.kz",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://kazpravda.kz",
+            "source": "kazpravda.kz",
+            "type": "global",
+            "logo": None,
+            "post_data": {
+                "title": {"h1": {"class": "article__title"}},
+                "published_at": {"time": {"class": "article__date"}},
+                "date_format": None,
+                "content": {"div": {"class": "article__body"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://iz.ru",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://iz.ru/news",
+            "source": "iz.ru",
+            "type": "global",
+            "logo": None,
+            "post_data": {
+                "title": {"h1": {"itemprop": "headline"}},
+                "published_at": {"div": {"class": "article_page__left__top__time__label"}},
+                "date_format": None,
+                "content": {"div": {"itemprop": "articleBody"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://www.trend.az",
+            "is_url_required": False,
+            "page_count": 1,
+            "pagination_url": "https://www.trend.az/latest/",
+            "source": "trend.az",
+            "type": "global",
+            "logo": "https://www.trend.az/assets/img/logo30.svg?v558",
+            "post_data": {
+                "title": {"div": {"class": "top-part"}},
+                "published_at": {"span": {"class": "date-time"}},
+                "date_format": None,
+                "content": {"div": {"itemprop": "articleBody"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://www.ozodlik.org",
+            "is_url_required": True,
+            "page_count": 3,
+            "pagination_url": "https://www.ozodlik.org/z/421?p={}",
+            "source": "ozodlik.org",
+            "type": "global",
+            "logo": "72a38011d72261932735c12480557d8274d34635e2c28eee2ab1f58ab0f3b39a.png",
+            "post_data": {
+                "title": {"h1": {"class": "title pg-title"}},
+                "published_at": {"span": {"class": "date"}},
+                "date_format": None,
+                "content": {"div": {"id": "article-content"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": {"span": {"class": "meta-item post-views has-icon rank-hot"}},
+                "image_url": "img"
+            }
+        },
+        {
+            "base_url": "https://www.newsru.com",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://www.newsru.com/allnews",
+            "source": "newsru.com",
+            "type": "global",
+            "logo": "https://static.newsru.com/static/v3/img/misc/rucom_main.png",
+            "post_data": {
+                "title": {"h1": {"class": "article-title"}},
+                "published_at": {"div": {"class": "article-date"}},
+                "date_format": None,
+                "content": {"div": {"class": "article-text"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://niann.ru",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://niann.ru",
+            "source": "niann.ru",
+            "type": "global",
+            "logo": "https://niann.ru/_data/objects/0000/0170/icon.png",
+            "post_data": {
+                "title": {"h1": {"class": "header"}},
+                "published_at": {"span": {"class": "date_standart date"}},
+                "date_format": None,
+                "content": {"div": {"class": "mess_standart"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://www.chechnyafree.ru",
+            "is_url_required": False,
+            "page_count": 3,
+            "pagination_url": "https://www.chechnyafree.ru/page/{}",
+            "source": "chechnyafree.ru",
+            "type": "global",
+            "logo": None,
             "post_data": {
                 "title": {"h1": {"class": "entry-title"}},
-                "published_at": {"span": {"class": "td-post-date"}},
+                "published_at": {"time": {"class": "entry-date published updated"}},
+                "date_format": None,
+                "content": {"div": {"class": "entry-content clearfix"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://24.kg",
+            "is_url_required": True,
+            "page_count": 3,
+            "pagination_url": "https://24.kg/page_{}",
+            "source": "24.kg",
+            "type": "global",
+            "logo": "https://24.kg/assets/7a772a43/images/logo.png",
+            "post_data": {
+                "title": {"h1": {"class": "newsTitle"}},
+                "published_at": {"span": {"itemprop": "datePublished"}},
+                "date_format": None,
+                "content": {"div": {"class": "cont"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://www.inopressa.ru",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://www.inopressa.ru",
+            "source": "inopressa.ru",
+            "type": "global",
+            "logo": "https://static.inopressa.ru/img/inopressa-logo-light.gif",
+            "post_data": {
+                "title": {"div": {"class": "topic"}},
+                "published_at": {"div": {"class": "maincaption"}},
+                "date_format": None,
+                "content": {"div": {"class": "body"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://www.ntv.ru",
+            "is_url_required": True,
+            "page_count": 3,
+            "pagination_url": "https://www.ntv.ru/novosti?page={}",
+            "source": "ntv.ru",
+            "type": "global",
+            "logo": "https://static2.ntv.ru/static/images/logo.png",
+            "post_data": {
+                "title": {"h1": {"class": "h h-l content-top__title"}},
+                "published_at": {"p": {"class": "cap cap-xs content-top__date"}},
+                "date_format": None,
+                "content": {"div": {"class": "content-text"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://www.rosbalt.ru",
+            "is_url_required": True,
+            "page_count": 1,
+            "pagination_url": "https://www.rosbalt.ru/news",
+            "source": "rosbalt.ru",
+            "type": "global",
+            "logo": "https://files.1mi.media/39de3f037a203dee014c6bddc7d37b5804aacd91/resize:auto:0:0:0/c41a92fe9ea4f6991bbf9950fe6fa3fa53e9bfd31ef1bef46d9b59f9398a.svg",
+            "post_data": {
+                "title": {"h1": {"class": "MatterTopNoImage_title___N52h"}},
+                "published_at": {"div": {"class": "MatterTopNoImage_date__u0xOz"}},
+                "date_format": None,
+                "content": {"div": {"class": "mb-[24px] lg:mb-[36px] content-blocks kind-common"}},
+                "category": None,
+                "view_count": None,
+                "reaction_count": None,
+                "image_url": None
+            }
+        },
+        {
+            "base_url": "https://alisnad.com",
+            "is_url_required": False,
+            "page_count": 3,
+            "pagination_url": "https://alisnad.com/page/{}",
+            "source": "alisnad.com",
+            "type": "global",
+            "logo": "https://alisnad.com/wp-content/uploads/2020/01/Logo-no-com-300x98.png",
+            "post_data": {
+                "title": {"h1": {"class": "entry-title"}},
+                "published_at": {"time": {"class": "entry-date updated td-module-date"}},
                 "date_format": None,
                 "content": {"div": {"class": "td-post-content"}},
                 "category": None,
@@ -429,94 +562,18 @@ if __name__ == "__main__":
             }
         },
         {
-            "base_url": "https://www.theunionjournal.com",
-            "is_url_required": False,
+            "base_url": "https://vasudeva.ru",
+            "is_url_required": True,
             "page_count": 1,
-            "pagination_url": "https://www.theunionjournal.com",
-            "source": "theunionjournal.com",
+            "pagination_url": "https://vasudeva.ru",
+            "source": "vasudeva.ru",
             "type": "global",
-            "logo": "https://cdn.shortpixel.ai/spai/q_lossy+w_150+to_auto+ret_img/www.theunionjournal.com/wp-content/uploads/2020/11/test-logo-4-150x150-1.png",
+            "logo": "https://vasudeva.ru/images/logo251.jpg",
             "post_data": {
-                "title": {"h1": {"class": "entry-title"}},
-                "published_at": {"time": {"class": "entry-date updated td-module-date"}},
+                "title": {"h1": {"itemprop": "headline"}},
+                "published_at": {"time": {"itemprop": "datePublished"}},
                 "date_format": None,
-                "content": {"div": {"class": "markdown prose w-full break-words dark:prose-invert dark"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://www.dainikviral.com",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://www.dainikviral.com",
-            "source": "dainikviral.com",
-            "type": "global",
-            "logo": "https://www.dainikviral.com/wp-content/uploads/2023/08/cropped-cropped-cropped-cropped-cropped-Dainik-Viral-Picture-1.png",
-            "post_data": {
-                "title": {"h1": {"class": "entry-title"}},
-                "published_at": {"time": {"class": "entry-date published"}},
-                "date_format": None,
-                "content": {"div": {"class": "entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://bbcbreakingnews.com",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://bbcbreakingnews.com",
-            "source": "bbcbreakingnews.com",
-            "type": "global",
-            "logo": None,
-            "post_data": {
-                "title": {"h1": {"class": "title"}},
-                "published_at": None,
-                "date_format": None,
-                "content": {"article": {"class": "small single"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://www.worldpresslive.com",
-            "is_url_required": False,
-            "page_count": 1,
-            "pagination_url": "https://www.worldpresslive.com",
-            "source": "worldpresslive.com",
-            "type": "global",
-            "logo": "https://www.worldpresslive.com/wp-content/uploads/2022/06/WORD-PRESS-LIVE-01.png",
-            "post_data": {
-                "title": {"h1": {"class": "post-title single-post-title entry-title"}},
-                "published_at": {"time": {"class": "entry-date published"}},
-                "date_format": None,
-                "content": {"div": {"class": "inner-post-entry entry-content"}},
-                "category": None,
-                "view_count": None,
-                "reaction_count": None,
-                "image_url": None
-            }
-        },
-        {
-            "base_url": "https://www.akinblog.com",
-            "is_url_required": False,
-            "page_count": 3,
-            "pagination_url": "https://www.akinblog.com/page/{}",
-            "source": "akinblog.com",
-            "type": "global",
-            "logo": None,
-            "post_data": {
-                "title": {"h1": {"class": "title single"}},
-                "published_at": {"span": {"class": "mg-blog-date"}},
-                "date_format": None,
-                "content": {"article": {"class": "page-content-single small single"}},
+                "content": {"div": {"itemprop": "articleBody"}},
                 "category": None,
                 "view_count": None,
                 "reaction_count": None,
@@ -537,7 +594,7 @@ if __name__ == "__main__":
 
         post_data_list = new_parser.parse_data(
             [
-                "https://www.akinblog.com/davido-the-journey-of-an-afrobeats-icon/"])
+                "https://vasudeva.ru/universitet-bkhakti-jogi/dukhovnye-uchitelya/shrila-prabhupada/o-shrile-prabkhupade/baradradzha-das-luchshaya-nagrada"])
 
         final_data = {
             "source": parser_config['source'],
